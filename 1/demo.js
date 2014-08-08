@@ -1,5 +1,5 @@
 $(function () {
-    $.getJSON('http://www.highcharts.com/samples/data/jsonp.php?filename=aapl-ohlcv.json&callback=?', function (data) {
+    $.getJSON('/gh/get/response.json/klao/highcharts-demo/tree/master/1/', function (data) {
 
         // split the data set into ohlc and volume
         var ohlc = [],
